@@ -1,0 +1,26 @@
+@import "../css/variables";
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 15px;
+  text-align: justify;
+
+  img {
+    width: 100%;
+  }
+
+  .image-desc-title {
+    color: $primary;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}

@@ -1,0 +1,30 @@
+.icons {
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    color: #f3f4f6;
+    text-shadow: 0 4px 4px rgba(0,0,0,.25);
+    font-size: 19px;
+    margin-bottom: 26px;
+    font-weight: 500;
+  }
+  .icon img {
+    margin-right: 14px;
+    width: 32px;
+    height: 32px;
+    background: rgba(134,194,50,.24);
+    border: .5px solid #4C682A;
+    box-shadow: 0 0 5px #86c2324d;
+    border-radius: 3px;
+    padding: 6px;
+  }
+}

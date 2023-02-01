@@ -1,0 +1,58 @@
+@import "./variables";
+
+.startit_desc {
+  @import "../components/header";
+  @import "../components/icons";
+  @import "../components/economy";
+  @import "../components/leveling";
+  @import "../components/bots";
+  @import "../components/more";
+
+  color: #fff;
+  &, *{
+    font-family: 'Poppins', sans-serif !important;
+    white-space: normal !important;
+    box-sizing: content-box;
+  }
+
+  b {
+    font-weight: 600;
+  }
+
+  .header {
+    margin-top: 60px;
+    background: $primary;
+    border-top-left-radius: 50px;
+    background: linear-gradient(90deg, $primary 0%, transparent 100%);
+    padding: 22px 0 22px 60px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .h3 { // Used in economy & leveling
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 40px;
+  }
+
+  .checkboxes {
+    margin-top: 20px;
+
+    .economy-checkbox {
+      display: flex;
+      color: #fff;
+      align-items: center;
+      font-weight: 300;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .economy-checkbox img {
+      margin-right: 22px;
+    }
+  }
+
+}

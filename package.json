@@ -1,0 +1,20 @@
+{
+  "name": "startit-topgg-showcase",
+  "version": "1.0.0",
+  "description": "StartIT top.gg showcase",
+  "license": "GPL-3.0",
+  "author": "StartIT",
+  "scripts": {
+    "build": "parcel build embed.html --public-url https://startit.bot/assets/topgg/",
+    "dev": "parcel preview.html --open"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.8.3",
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.58.0",
+    "sharp": "^0.31.3"
+  }
+}

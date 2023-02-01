@@ -1,0 +1,21 @@
+
+.commands {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  .command {
+    display: flex;
+    align-items: center;
+    background: rgba(43, 46, 53, .9);
+    border-radius: 7px;
+    padding: 9px 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+}
